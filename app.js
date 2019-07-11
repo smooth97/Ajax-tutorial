@@ -4,12 +4,10 @@ const section = document.querySelector('section');
 
 const bgColor = (color) => {
     header.style.backgroundColor = color;
-    section.style.backgroundColor = color;
 }
 
 const textColor = (color) => {
     header.style.color = color;
-    section.style.color = color;
 }
 
 function changeColor() {
@@ -26,3 +24,23 @@ function changeColor() {
 
 button.addEventListener('click', changeColor);
 
+function fetchPage(name) {
+    fetch(name).then(function (response) {
+        response.text().then(function (text) {
+            document.querySelector('article').innerHTML = text;
+        })
+    })
+}
+
+fetch(name).then(function (response) {
+    response.text().then(function (text) {
+        document = text;
+    })
+});
+
+//Asynchronous
+fetch('html').then(function(response){
+    if(response.status == '404'){
+      alert('Not found');
+    }
+  });

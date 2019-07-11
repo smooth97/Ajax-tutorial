@@ -44,7 +44,7 @@ section {
     align-items: center;
 }
 
-section h2 {
+h2 {
     width: 100%;
     background: orange;
     color: white;
@@ -52,7 +52,7 @@ section h2 {
     padding: 50px;
 }
 
-section p {
+p {
     width: 500px;
     padding: 50px;
 }
