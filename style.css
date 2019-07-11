@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 40vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 a {
+    text-decoration: none;
+    color: tomato;
+}
+
+input {
+    width: 70px;
+    height: 30px;
+    margin: 30px;
+    background: rgb(39, 39, 39);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+ol li {
+    margin: 20px;
+}
+
+ol li a { 
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+section {
+    height: 60vh;
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    width: 100%;
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+section p {
+    width: 500px;
+    padding: 50px;
+}
